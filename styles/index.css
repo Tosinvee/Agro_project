@@ -1,0 +1,70 @@
+:root {
+  --orange: rgb(240, 89, 2);
+  --grey: rgb(75, 74, 74);
+  --line: rgb(216, 213, 213);
+  --log-sign: rgb(58, 57, 57);
+  --opac-orange: rgb(253, 248, 247);
+  
+  --body-padding: 20rem;
+  --default-font: 1.8rem;
+  --green:  rgb(9, 131, 9);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: inter, Arial, Helvetica, sans-serif;
+  font-size: var(--default-font);
+
+ 
+}
+
+
+/* navbar */
+
+header {
+  background-color: var(--green);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content:  space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: var(--body-padding);
+  padding-left: var(--body-padding);
+  align-items: center;
+  max-width:600rem;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600rem;
+  /* padding-left: 50rem; */
+}
+
+.pad-nav {
+  margin-right: 3rem;
+  padding: 1rem 2rem;;
+  transition: 1s all;
+  font-weight: 600;
+  border-radius: 1.2rem;
+}
+
+.pad-nav:hover {
+  color: var(--green);
+  background-color: white;
+ 
+}
+
