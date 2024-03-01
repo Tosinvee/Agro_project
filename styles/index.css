@@ -60,6 +60,7 @@ nav {
   transition: 1s all;
   font-weight: 600;
   border-radius: 1.2rem;
+  cursor: pointer;
 }
 
 .pad-nav:hover {
